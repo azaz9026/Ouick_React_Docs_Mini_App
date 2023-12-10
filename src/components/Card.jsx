@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 function Card({data}) {
   return (
     <>
-        <motion.div drag className=' relative w-60 h-72 rounded-[40px] bg-zinc-900/90 text-white px-8 py-10 text-sm overflow-hidden'>
+        <motion.div drag dragConstraints={referecne} className=' relative w-60 h-72 rounded-[40px] bg-zinc-900/90 text-white px-8 py-10 text-sm overflow-hidden'>
 
             <FaRegFileAlt />
             <p className='py-3'>{data.desc}</p>
