@@ -1,5 +1,6 @@
 import React from 'react'
 import Background from './components/background'
+import Foreground from './components/Foreground'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
 
        <Background />
        
-       <div className=' fixed z-[3] top-0 left-0 w-full  h-full '>  </div>
+       <Foreground />
 
     </div>
   )
